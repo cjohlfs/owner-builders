@@ -24,9 +24,12 @@ export const Navbar: React.FC = () => {
       isScrolled ? 'bg-white/95 backdrop-blur-md shadow-lg py-3' : 'bg-transparent py-5'
     }`}>
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-        <div className="flex items-center space-x-2 group cursor-pointer" onClick={() => window.scrollTo(0,0)}>
-          <div className="w-10 h-10 koi-accent rounded-xl flex items-center justify-center text-white font-bold text-2xl shadow-lg shadow-orange-500/20 group-hover:rotate-12 transition-transform">K</div>
-          <span className="text-2xl font-black tracking-tighter">KOI<span className="text-orange-500">BUILD</span></span>
+        <div className="flex items-center group cursor-pointer" onClick={() => window.scrollTo(0,0)}>
+          <img 
+            src="/logo.png" 
+            alt="Owner Builders Consulting Firm" 
+            className="h-14 w-auto group-hover:scale-105 transition-transform"
+          />
         </div>
         
         <div className="hidden md:flex space-x-8 items-center">
