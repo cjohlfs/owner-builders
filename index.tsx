@@ -5,7 +5,7 @@ import { GoogleGenAI } from "@google/genai";
 /**
  * GEMINI API INTEGRATION
  */
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = process.env.API_KEY ? new GoogleGenAI({ apiKey: process.env.API_KEY }) : null;
 
 const getAIConsultation = async (prompt: string) => {
   try {
