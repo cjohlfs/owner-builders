@@ -41,3 +41,15 @@
 html {
     scroll-behavior: smooth;
 }
+
+
+/* REBRAND: Hide KOIBUILD elements, show Owner Builders logo */
+nav .koi-accent { display: none !important; }
+nav .text-2xl.font-black.tracking-tighter { display: none !important; }
+nav div.flex.items-center.space-x-2.cursor-pointer {
+      background-image: url('/logo.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 200px;
+      height: 64px;
+}
