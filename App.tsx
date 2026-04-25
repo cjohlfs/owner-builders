@@ -150,7 +150,7 @@ const App: React.FC = () => {
 
         <WhyOwnerBuilder />
 
-        <section id="consultant" className="py-20 bg-[#1B2A6B]">
+        <section id="ai-expert" className="py-20 bg-[#1B2A6B]">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <span className="inline-block px-4 py-1.5 mb-4 text-sm font-semibold tracking-wide text-orange-400 uppercase bg-orange-500/10 border border-orange-500/20 rounded-full">AI-Powered</span>
@@ -177,9 +177,7 @@ const App: React.FC = () => {
           <FAQ />
         </section>
 
-        <section id="contact" className="py-20">
-          <ContactForm />
-        </section>
+        <ContactForm />
       </main>
       <Footer />
     </div>
