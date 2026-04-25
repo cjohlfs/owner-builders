@@ -55,7 +55,7 @@ export const Hero: React.FC = () => {
       <div className="relative z-10 max-w-6xl mx-auto px-4 pb-20">
         <div className="rounded-[2.5rem] overflow-hidden shadow-[0_32px_64px_-16px_rgba(0,0,0,0.5)] aspect-[16/7] relative group">
           <img
-            src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=2400&q=85&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=2400&q=85&auto=format&fit=crop"
             alt="Pacific Northwest luxury residential home with deck - Owner Builders Consulting Firm"
             className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
             loading="eager"
