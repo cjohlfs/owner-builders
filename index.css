@@ -1,1 +1,43 @@
-/* Global styles - Tailwind CSS is loaded via CDN in index.html */
+/* Owner Builders Consulting Firm - Global Styles */
+/* Brand Colors: Orange #F47920, Navy #1B2A6B, Dark Gray #3D3D3D */
+
+/* Custom accent class using brand orange */
+.koi-accent {
+    background-color: #F47920;
+}
+
+.koi-accent:hover {
+    background-color: #e06b14;
+}
+
+/* Navy color utilities */
+.ob-navy {
+    color: #1B2A6B;
+}
+
+.ob-navy-bg {
+    background-color: #1B2A6B;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F47920;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1B2A6B;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
