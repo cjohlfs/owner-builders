@@ -7,9 +7,12 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="w-8 h-8 koi-accent rounded-lg flex items-center justify-center text-white font-bold text-xl">K</div>
-              <span className="text-xl font-bold tracking-tight">KOI<span className="text-orange-500">BUILD</span></span>
+            <div className="flex items-center mb-6">
+              <img 
+                src="/logo.png" 
+                alt="Owner Builders Consulting Firm" 
+                className="h-12 w-auto"
+              />
             </div>
             <p className="text-slate-500 text-sm leading-relaxed mb-6">
               Empowering homeowners to take control of their construction projects through expert consulting and transparent pricing.
@@ -22,7 +25,7 @@ export const Footer: React.FC = () => {
               <li><a href="#" className="hover:text-orange-500">Owner Builder Consulting</a></li>
               <li><a href="#" className="hover:text-orange-500">Flat Fee Management</a></li>
               <li><a href="#" className="hover:text-orange-500">Project Estimating</a></li>
-              <li><a href="#" className="hover:text-orange-500">Safety & Compliance</a></li>
+              <li><a href="#" className="hover:text-orange-500">Safety &amp; Compliance</a></li>
             </ul>
           </div>
           
@@ -47,7 +50,7 @@ export const Footer: React.FC = () => {
         </div>
         
         <div className="pt-8 border-t border-slate-200 text-center text-slate-400 text-xs">
-          <p>© {new Date().getFullYear()} Koi Build Construction Consulting. All rights reserved. Professional consulting, not a licensed general contractor in all jurisdictions. Check local laws for owner-builder requirements.</p>
+          <p>© {new Date().getFullYear()} Owner Builders Consulting Firm. All rights reserved. Professional consulting, not a licensed general contractor in all jurisdictions. Check local laws for owner-builder requirements.</p>
         </div>
       </div>
     </footer>
