@@ -3,28 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- PRIMARY SEO -->
-    <title>Master Your Build | #1 Owner Builder Consulting & Flat-Fee Construction Experts</title>
-    <meta name="description" content="Owner Builders Consulting Firm provides expert residential construction consulting and flat-fee management. Save up to 30% on custom homes, ADUs, and remodels.">
-    <meta name="keywords" content="owner builder consulting, flat fee general contractor, residential building consultant, save on home construction, ADU specialist, DADU project management, construction savings strategy">
+    <title>Owner Builder Consulting | Save 30% on Custom Homes, ADUs & New Construction | Owner Builders</title>
+    <meta name="description" content="Owner Builders Consulting Firm helps homeowners save up to 30% on construction costs. Flat-fee GC services, owner-builder mentorship, ADU/DADU specialists. No percentage markup. Serving the Pacific Northwest and nationwide.">
+    <meta name="keywords" content="owner builder consulting, flat fee general contractor, save on construction, owner builder program, ADU consultant, DADU permit, residential construction consultant, new home build, custom home, Pacific Northwest builder">
     <link rel="canonical" href="https://owner.builders/" />
     <meta name="robots" content="index, follow">
+    <meta name="author" content="Owner Builders Consulting Firm">
 
-    <!-- SOCIAL MEDIA (OPEN GRAPH) -->
+    <!-- OPEN GRAPH -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Build Your Dream Home for 30% Less | Owner Builders">
-    <meta property="og:description" content="Eliminate percentage-based markups with professional owner-builder consulting and flat-fee contracting.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1503387762-592dea58ef23?q=80&w=1200&auto=format&fit=crop">
+    <meta property="og:site_name" content="Owner Builders Consulting Firm">
+    <meta property="og:title" content="Save 30% on Your Custom Home Build | Owner Builders Consulting Firm">
+    <meta property="og:description" content="Eliminate the general contractor markup. Flat-fee consulting, owner-builder mentorship, and ADU/DADU specialists. Expert guidance. Fixed fees. Zero markup.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=1200&auto=format&fit=crop">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:url" content="https://owner.builders/">
+
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Save 30% on Your Custom Home Build | Owner Builders">
+    <meta name="twitter:description" content="Flat-fee consulting, owner-builder mentorship, ADU specialists. No GC markup.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=1200&auto=format&fit=crop">
 
     <!-- FONTS & STYLES -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- STRUCTURED DATA (SEO GOLD) -->
+
+    <!-- JSON-LD STRUCTURED DATA -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Owner Builders Consulting Firm",
+      "description": "Flat-fee owner-builder consulting and general contracting. Save up to 30% on custom homes, ADUs, and remodels.",
+      "url": "https://owner.builders",
+      "telephone": "",
+      "email": "Chris@koi.build",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "serviceType": ["Owner-Builder Consulting", "Flat-Fee General Contracting", "ADU Construction", "DADU Permitting", "Home Remodeling"],
+      "priceRange": "$",
+      "sameAs": ["https://owner.builders"]
+    }
+    </script>
+
     <!-- Netlify Forms Detection -->
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input name="form-name" />
       <input name="name" />
       <input name="phone" />
       <input name="email" />
@@ -32,5 +66,12 @@
       <input name="sqft" />
       <input name="startDate" />
       <textarea name="details"></textarea>
+      <input name="bot-field" />
     </form>
-<div id="root"></div><script type="module" src="/index.tsx"></script></body></html>
+
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
