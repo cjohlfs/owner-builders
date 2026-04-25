@@ -1,0 +1,6 @@
+# robots.txt for owner.builders
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://owner.builders/sitemap.xml
