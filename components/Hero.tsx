@@ -52,7 +52,7 @@ export const Hero: React.FC = () => {
       <div className="mt-20 max-w-6xl mx-auto px-4">
         <div className="rounded-[2.5rem] overflow-hidden shadow-[0_32px_64px_-16px_rgba(0,0,0,0.15)] aspect-[21/9] relative group bg-slate-800">
           <img
-            src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=2400&q=80&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=2400&q=80&auto=format&fit=crop"
             alt="Residential home construction framing with Owner Builders Consulting Firm"
             className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90"
             loading="eager"
