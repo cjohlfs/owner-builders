@@ -28,7 +28,7 @@ export const FAQ: React.FC = () => {
       answer: "An owner-builder is a property owner who acts as their own general contractor. This allows you to hire subcontractors directly, avoiding the 15-25% markup traditional contractors charge on top of labor and materials."
     },
     {
-      question: "How does Koi Build save me money?",
+      question: "How does Owner Builders save me money?",
       answer: "Traditional contractors have a financial incentive for your project to cost MORE (since they take a percentage). We charge a FIXED flat fee. Our only incentive is to help you build as efficiently as possible while maintaining elite quality."
     },
     {
