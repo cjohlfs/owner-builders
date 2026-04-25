@@ -4,7 +4,7 @@ import { getAIConsultation } from '../services/geminiService';
 
 export const AIConsultant: React.FC = () => {
   const [messages, setMessages] = useState<{role: 'user' | 'bot', text: string}[]>([
-    { role: 'bot', text: "Hi! I'm your Koi Build consultant. Thinking about building your own home? Ask me anything about the process or how much you can save!" }
+    { role: 'bot', text: "Hi! I'm your Owner Builders consultant. Thinking about building your own home? Ask me anything about the process or how much you can save!" }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -40,7 +40,7 @@ export const AIConsultant: React.FC = () => {
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 rounded-full bg-orange-500 flex items-center justify-center font-bold">K</div>
           <div>
-            <p className="text-sm font-bold">Koi Consultant</p>
+            <p className="text-sm font-bold">Owner Builders AI</p>
             <p className="text-xs text-slate-400">Online & Ready to Help</p>
           </div>
         </div>
